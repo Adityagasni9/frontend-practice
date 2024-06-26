@@ -1,0 +1,5 @@
+jab bhe form ke sath deal kare yaad rakho ki submit hone par forms page ko reload kar deea hai , aur tumhe khayal 
+hai ke pages reload naa hoo , nahi to agar page reload hua toh js nahi chalege ,kyunki js chal paaye us se pehle honejs 
+js reload hoo gya hoga
+
+form ko submit krne pe reload se rokne ke leyee

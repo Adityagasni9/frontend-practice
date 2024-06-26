@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+/* jabh bhe hum locomotive use krte hai ttbah hum apne main ko height width nhe detete hai... */
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(110, 150, 219);
+    
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(80, 59, 146);
+    
+}
+
+#page2 #img-div{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    left: 50%;
+    overflow: hidden;
+    transform: translateX(-50%);
+}
+#img-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.2;
+    /* transform: translateX(50%); */
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(50, 0, 94);
+    
+}
